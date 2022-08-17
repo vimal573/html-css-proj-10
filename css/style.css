@@ -262,8 +262,12 @@ body {
   }
 
   .puzzle {
-    top: 6rem;
+    top: 8rem;
     left: 13rem;
+  }
+
+  .puzzle::after {
+    top: 16rem;
   }
 
   .lightbulb {
